@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="mainpage.css">
+	<link rel="stylesheet" href="/w3css/3/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<title>Main Page</title>
+</head>
+<body>
+
+<div class="imgclass">
+<div class="img1">
+<img src="dsi.jpg" width="150px" height="150px">
+</div>
+<div class="img2">
+<img src="logoarcis.png" width="450px" height="250px"  id="imgA">
+</div>
+</div>
+
+<header id="top">
+
+  
+   <nav>
+   	<ul class="pages">
+  <li type="none" ><a  class="active" href="HOME.HTML"> HOME</a></li>
+    <li type="none"><a  href=".HTML">OUR TEAM</a></li>
+    <li type="none" tyle="float:right"><a   href=".html">ACHIEVEMENTS</a></li>
+    <li type="none" tyle="float:right"><a   href=".html">GALLERY</a></li>
+    <li type="none" tyle="float:right"><a   href=".html">DONATIONS</a></li>
+    <li type="none" tyle="float:right"><a   href=".html">OUR EVENTS</a></li>
+    <li type="none" tyle="float:right"><a   href=".html">CONTACTS</a></li>
+</ul>
+</nav>
+
+  <section>
+  <img class="mySlides" src="plane1.jpg" width="1350px" height="450px">
+  <img class="mySlides" src="plane2.jpg" width="1350px" height="450px">
+  <img class="mySlides" src="plane3.jpg" width="1350px" height="450px">
+   <img class="mySlides" src="plane4.jpg" width="1350px" height="450px">
+</section>
+
+</header>
+
+
+<p id="mheading"> <u>ABOUT TEAM ARCIS</u></p>
+<p id="mstory">OUR STORY</p>
+
+<div class="container">
+  <div class="left">
+  	<div>
+  	<p class="pstory">TEAM ARCIS represents the Aero Design club of Dayananda Sagar College of Engineering, Bangalore. TEAM ARCIS was established in 2012. It is the brainchild of three UAV fanatics. We began small but we continue to grow and improve every year.<br><br>TEAM ARCIS is the official team of the college for the SAE International Aero design Collegiate series. The team's passion for aero designing can be seen in their work, from designing and fabrication of the model airplane, to constructing and building the radio controlled airplane(rc airplane), then to the final flying phase. <br><br><br><br><br><br>
+Our team regularly competes on an international stage, competing against teams from all over the world, from Germany to China, the USA to Japan.</p>
+</div>
+
+	<img src="sponsor.png" width="850px" height="350px">
+</div>
+  
+
+
+  <div class="right">
+  	
+ 	<table>
+ 		<tr> <img src="sponsor1.jpg" width="200px" height="250px"></tr>
+ 		<tr><img src="sponsor2.jpg" width="200px" height="250px"></tr>
+ 	</table>	
+ 
+ <div >
+ 	<p>SolidWorks is a solid modeling computer-aided design (CAD) and computer-aided engineering (CAE) published by Dassault Systemes. We use SOLIDWORKS for DESIGN, ASSEMBLY and SIMULATION or our RC airplane
+   </p>
+   <p>ANSYS  is a Computer-aided engineering software company that  publishes engineering analysis software across a range of disciplines including finite element analysis, structural analysis, computational fluid dynamics, explicit and implicit methods, and heat transfer. We use ANSYS for STRESS ANALYSIS, CFD and CFX.</p>
+</div>
+</div>
+</div>
+
+
+<p id="heading">OUR VISSION AND MISSION</p>
+
+<div class="container-2">
+ 
+
+<div class="main">
+	
+	<h1>VISSION</h1>
+	<ul>
+		<li>To excel as a team of innovative engineers,leveraging UAV,UAS and other modern technologies for solving real world problems</li>
+	</ul>
+	<div>
+ 
+ 	<h1> MISSION</h1>
+ 	  <ul>
+ 	  	  <li> To create the required lab infrastructure to facilitate design and fabrication of UAV</li>
+ 	  	  <li> Train students in RC modeling and other related technologies</li>
+ 	  	  <li> Complete international competetions/challenges relating to UAV,UAS and other modern technologies</li>
+ 	  	  <li>Hold internal design challenge in UAV,UAS and other modern technologies</li>
+ 	  </ul>
+ </div>
+   </div>
+
+
+<br><br>
+ <footer>
+
+
+<q id="quote">People put themselves in difficult situations in lots of different areas. What you count on is people taking every precaution. The aerospace industry is unique in this aspect because a thousandths-of-an-inch mistake can cause spectacular failures.</q><hr><br><br><br>
+
+<div class="footercontent">
+<div class="foot">
+	<h3>FOLLOW US</h3><br><br><br>
+   <a href="" class="fa fa-facebook" class=".link"></a><br><br>
+    <a href="" class="fa fa-linkedin"></a><br><br>
+    <a href="" class="fa fa-instagram"></a><br><br>	 
+    <a href="" class="fa fa-google"></a><br><br>
+</div>
+
+<div class="email">
+	<form>
+
+		<label for="Heading" id="con1">Stay Connected</label><br><br>
+
+		<p id="con2">Send us your Query,We will reply You in next 24 Hours</p><br><br>
+
+		<label class="align" for="email">Your Email</label><br>
+
+		<input class="box" type="email" name="Enter Your Email"><br><br>
+
+		<input type="submit" name="GO" value="GO" id="submit">
+
+	</form>
+</div>
+
+<div class="pic">
+<img src="teamarcis.jpg" width="350px" height="320px">
+</div>
+<div class="rightbar">
+<ul id="li">
+	<li>Policies</li>
+	<li>Sitemap</li>
+	<li>Copyright</li>
+</ul>
+<h1>Contact Us at:</h1>
+<address>team18arcis@gmail.com</address>
+</div>
+</div>
+
+
+ </footer>
+
+
+ <script type="text/javascript" src="mainpage.js">
+		
+	</script>
+
+</body>
+</html>

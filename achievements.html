@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css" >
+    <title>Achievements</title>
+   
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+
+#firstdiv {
+
+float:left;
+}
+
+#seconddiv {
+
+float:right;
+}
+
+#thirddiv {
+
+float:left;
+
+
+}
+#fourthdiv{float:left;}
+#section1{
+
+margin-left: 50px;
+margin-left: 50px;
+}
+    body{
+        background-image: url(pexels-photo-403575.jpeg);
+  background-size: cover;
+ background-repeat: no-repeat !important;
+        background-attachment:fixed;
+    }
+</style>
+</head>
+<body>
+
+
+
+  
+   <nav class="navbar navbar-default ">
+  
+   	 	<div class="container">
+   	<ul class="nav nav-bar ">
+   	
+    <li  ><a  href="mainpage.html"> HOME </a></li>
+    <li ><a  href=".HTML"> OUR TEAM </a></li>
+    <li  ><a class="active"  href="achievements.html">ACHIEVEMENTS</a></li>
+    <li ><a   href=".html">GALLERY</a></li>
+    <li  ><a   href="donations.html">DONATIONS</a></li>
+    <li  ><a   href=".html">OUR EVENTS</a></li>
+    <li  ><a   href=".html">CONTACTS</a></li>
+</ul>
+       </div>
+</nav>
+
+    
+       
+       
+       
+       
+       <div id="firstdiv" class="w3-card-4" style="width:20%; margin-left: 100px; margin-top: 50px">
+    <header class="w3-container w3-brown">
+      <h1>2013</h1>
+    </header>
+
+
+  <div id="firstdiv" class="w3-card-4" style="width:100%;">
+    <img src="plane4.jpg"  style="width:100%">
+    <div class="w3-container w3-center">
+      <p>Won First Prize at National Summit</p>
+    </div>
+  </div>
+</div>
+
+ <div id="seconddiv" class="w3-card-4" style="width:20%; margin-right: 550px; margin-top: 50px">
+    <header class="w3-container w3-brown">
+      <h1>2015</h1>
+    </header>
+<div id="seconddiv" class="w3-card-4" style="width:100%;">
+    <img src="plane3.jpg"  style="width:100%">
+    <div class="w3-container w3-center">
+      <p>Participated in IISC AE Development Program</p>
+    </div>
+  </div>
+</div>
+ <div id="thirddiv" class="w3-card-4" style="width:20%; float:right; margin-right: 50px; margin-top: -50px;">
+    <header class="w3-container w3-brown">
+      <h1>2014</h1>
+    </header>
+<div id="thirddiv" class="w3-card-4" style="width:100%;">
+    <img src="plane2.jpg"  style="width:100%">
+    <div class="w3-container w3-center">
+      <p>Project Presented in front of Dr.R.J Monaghan</p>
+    </div>
+  </div>
+</div>
+<div id="fourthdiv" class="w3-card-4" style="width:20%; float:right; margin-right: 50px; margin-top: 50px;">
+    <header class="w3-container w3-brown">
+      <h1>2016</h1>
+    </header>
+<div id="fourthdiv" class="w3-card-4" style="width:100%;">
+    <img src="plane1.jpg"  style="width:100%">
+    <div class="w3-container w3-center">
+      <p>Won Second Prize for the Aeronautical Project from IIT Bombay</p>
+    </div>
+  </div>
+</div><br/><br/><br/><br/>
+<!-- Slide Show -->
+<section id="section1" align="centre">
+  <img class="mySlides" src="team.jpg"
+  style="width:20%">
+  <img class="mySlides" src="abcd.jpg"
+  style="width:20%">
+  <img class="mySlides" src="efgh.jpg"
+  style="width:20%">
+</section>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+        
+            
+                    </body>
+</html>

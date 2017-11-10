@@ -1,0 +1,59 @@
+
+        
+        .navbar{
+             background-color: #EF5350;
+            float:left;
+            width:100%;
+            
+        }
+
+        
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color:greenyellow;
+    color:black;
+    text-decoration: none;
+}
+
+.active {
+    background-color:chartreuse;
+    color:black;
+}
+        .container{
+            margin-left: auto;
+            margin-right: auto;
+            display:block;
+            align-content: center;
+            clear:both;
+        }
+        .nav{
+               margin-left: auto;
+            margin-right: auto;
+            display:block;
+            align-content: center;
+        }
+        .side{
+            background-color:#eee;
+            display:block;
+            clear:both;
+            height:400px;
+            margin-top: 10px;
+            border:2px solid #ccc;
+            padding:10px;
+        }
+        .donation{
+            margin-top:10px;
+        }
